@@ -11,11 +11,10 @@ The application contains following two basic endpoints:
 - POST      /authenticate - returns token
 - GET       /hello - test authenticated endpoint 
 
-The application contains following two basic endpoints:
+The application contains employee REST API which simulates real-life use-case  :
 - GET       /employees - returns all employees
 - POST      /employees - creates new employee
 - DELETE    /employees/{employeeId} - delete employee by id
-
 
 
 ### Get token request

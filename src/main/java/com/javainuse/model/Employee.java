@@ -1,11 +1,13 @@
 package com.javainuse.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import java.util.Objects;
 
 public class Employee {
 	private Integer empId;
 	private String name;
 	private String designation;
+	@JsonIgnore
 	private double salary;
 
 	public Employee() {
